@@ -1,0 +1,84 @@
+1.Explain the table and its properties.
+
+Web developers can organize information like text, images, links, and other
+data into rows and columns of cells using HTML tables.
+
+The <table> tag is used to generate HTML tables. T
+
+Table rows are created using the <tr> tag, while data cells are created using
+the td> tag. Regular elements beneath <td> are by default left aligned.
+
+Properties :
+
+1.Table Heading
+2.Cell padding and spacing
+3.Colspan and rowspan
+4.Table Background
+5.Table height and width
+6.Table caption
+7.Table Header, Body and footer
+
+2. Explain all media elements and how they work.
+
+HTML provides various media elements to embed and display different types of media content, such as images, audio, video, and interactive elements.
+
+Images (<img>): The <img> element is used to display images on a web page.
+
+Audio (<audio>): The <audio> element is used to embed audio content on a web page.
+
+Video (<video>): The <video> element is used for embedding video content.
+
+Embed (<embed>): The <embed> element is used for embedding external media content, such as videos or interactive widgets (e.g., Google Maps).
+
+Object (<object>): The <object> element is used for embedding multimedia objects, including audio, video, and interactive content.
+
+Canvas (<canvas>): The <canvas> element is used for rendering graphics and animations using JavaScript.
+
+SVG (<svg>): The <svg> element is used for scalable vector graphics and is often used for creating interactive and animated graphics.
+
+IFrame (<iframe>): The <iframe> element is used to embed another web page within the current web page.
+
+3. What is GET and POST in form?
+
+GET and POST are two HTTP methods used in web forms to submit data to a server. They are used to send data from the client (typically a web browser) to the server, but they work differently and are used for different purposes.
+
+After submitting the form, the GET method displays form values in the address
+bar of the new browser tab.
+
+It is only allowed to be roughly 3000 characters long. Only non-secure data,
+not sensitive data, can be used with it.
+
+Syntax for Get : <form method="get">
+
+
+Unlike the GET method, the post method prevents form values from appearing in the address bar of the new browser tab after the form has been submitted.
+
+
+
+Syntax for post : <form method="post">
+
+
+4. List all the input type we have in forms.
+
+Here are all input type we have :
+
+1. placeholder
+2. value
+3. readonly
+4. Disabled
+5. name
+6. size
+7. maxlength
+8. autofocus
+9. min
+10. max
+11. multiple
+12. type
+
+
+
+
+
+
+
+
